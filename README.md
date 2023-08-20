@@ -11,7 +11,7 @@ Possuirá também uma parte voltada a loja da Atlética, informativos de eventos
 Para este projeto faremos o uso das seguintes linguagens:
 * HTML
 * CSS
-*  JAVASCRIPT
+* JAVASCRIPT
 * PHP
 * SQL - Postgresql
 
@@ -26,7 +26,7 @@ Elas irão ser distribuídas ao grupo conforme a facilidade de cada um.
 
 **Atividades**
 
-1.  Design das páginas
+1. Design das páginas
 2. Desenvolvimento da página com HTML CSS
 3. Implementação do Javascript
 5. Desenvolvimento do BackEnd com PHP
