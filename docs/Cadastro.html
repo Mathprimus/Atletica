@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de Cadastro</title>
+    <link rel = "stylesheet" href="Cadastro_style.css">
 </head>
 <body>
     
-
+    
     <div class="box">
         <form action="">
             <fieldset>
@@ -17,35 +18,51 @@
                     <label for="nome">Nome Completo</label>
                     <input type="text" name="nome" id="nome" class="inputUser" required>
                 </div>
+                <br>
                 <div class="inputBox">
                     <label for="nome">E-mail</label>
-                    
                     <input type="text" name="email" id="email" class="inputUser" required>
                 </div>
+
+                <br>
                 <div class="inputBox">
                     <label for="nome">Celular</label>
                     <input type="text" name="celular" id="celular" class="inputUser" required>
-                </div>
+                </div> 
+
                 <p>Sexo:</p>
                 <input type="radio" id="feminino" name="genero" value="feminino" required>
                 <label for="feminino">Feminino</label>
+                <br>
+
                 <input type="radio" id="masculino" name="genero" value="masculino" required>
                 <label for="feminino">Masculino</label>
+                <br>
+
                 <input type="radio" id="outros" name="genero" value="outros" required>
                 <label for="feminino">Outros</label>
+
+                <input type="radio" id="não_dizer" name="genero" value="não_dizer" required>
+                <label for="não_dizer">Prefiro não dizer</label>
+                <br>
 
                 <div class="inputBox">
                     <label for="data_nascimento"><b>Data de Nascimento</b></label>
                     <input type="date" name="data_nascimento" id="data_nascimento" class="inputUser" required>
                 </div>
+                <br>
                 <div class="inputBox">
                     <label for="cidade"><b>Cidade</b></label>
                     <input type="text" name="cidade" id="cidade" class="inputUser" required>
                 </div>
+                <br>
                 <div class="inputBox">
                     <label for="estado"><b>Estado</b></label>
                     <input type="text" name="estado" id="estado" class="inputUser" required>
                 </div>
+                <br>
+
+                <input type="submit" name="submit" id="submit">
 
             </fieldset>
         </form>
