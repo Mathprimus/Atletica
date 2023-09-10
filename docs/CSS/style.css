@@ -44,3 +44,12 @@ h1 {
     color: #00FF00; /* Verde neon */
     font-size: 36px;
 }
+
+@keyframes customAnimation {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
+}
+
+.img-logo{
+    width: 600px;
+}
