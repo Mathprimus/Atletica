@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1,max-scale=1">
     <title>Formulário de Cadastro</title>
     <link rel = "stylesheet" href="./CSS/Cadastro style.css">
 </head>
@@ -24,35 +24,37 @@
                 </div>
                 <br><br>
                 <div class="inputBox">
-
                     <input type="text" name="email" id="email" class="inputUser" required>
                     <label for="nome"  class="labelInput" >E-mail</label>
                 </div>
-
                 <br><br>
                 <div class="inputBox">
                     <input type="text" name="celular" id="celular" class="inputUser" required >
                     <label for="nome" class="labelInput">Celular</label>
                 </div> 
-                <br>
+                <br><br>
+                Curso:
+                    <select name="curso">
+                    <option value="0">Selecione seu curso:</option>
+                    <option value="1">Análise e Desenvolvimento de Sistemas</option>
+                    <option value="2">Sistemas da Informação</option>
+                    <option value="3">Ciêncica da Computação</option>
+                    <option value="4">Engenharia da Computação</option>
+                </select>
+                <br><br>
                 <p>Sexo:</p>
                 <input type="radio" id="feminino" name="genero" value="feminino" required>
                 <label for="feminino">Feminino</label>
                 <br>
-
                 <input type="radio" id="masculino" name="genero" value="masculino" required>
-                <label for="feminino">Masculino</label>
+                <label for="masculino">Masculino</label>
                 <br>
-
                 <input type="radio" id="outros" name="genero" value="outros" required>
-                <label for="feminino">Outros</label>
-
+                <label for="outros">Outros</label>
                 <br>
                 <input type="radio" id="não_dizer" name="genero" value="não_dizer" required>
                 <label for="não_dizer">Prefiro não dizer</label>
-                <br>
-                <br>
-
+                <br><br>
                 <label for="data_nascimento"><b>Data de Nascimento</b></label>
                 <input type="date" name="data_nascimento" id="data_nascimento" required>
                 <br><br><br>
@@ -62,7 +64,8 @@
                 </div>
                 <br><br>
                 Estado:
-                    <select name="estadoIS">
+                    <select name="estado">
+                    <option value="0">Selecione seu estado:</option>
                     <option value="AC">Acre</option>
                     <option value="AL">Alagoas</option>
                     <option value="AP">Amapá</option>
@@ -91,7 +94,6 @@
                     <option value="SE">Sergipe</option>
                     <option value="TO">Tocantins</option></select>
                 <br><br><br>
-
                 <input type="submit" name="submit" id="submit">
                 <br><br>
 
