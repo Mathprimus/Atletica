@@ -105,4 +105,27 @@ img {
     .buttons {
         margin-top: 10px;
     }
+
+    .botoes{
+        font-size: 14px;
+    }
+
+    .mascara{
+        font-size: 40px;
+        
+    }
+}
+
+@media (max-width: 300px){
+.botoes{
+    font-size: 6px;
+}
+
+.buttons{
+    margin-top: 8px;
+}
+
+.mascara{
+    font-size: 30px;
+}
 }
