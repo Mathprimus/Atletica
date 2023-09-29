@@ -1,118 +1,109 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
-body, ul {
-    margin: 0;
-    padding: 0;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
     background-color: black;
 }
 
-
-header {
+.menu{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #00FF00;
-    color: black;
-}
-
-.logo {
-    visibility: hidden;
-}
-
-.img-logo{
-    width: 100px;
-}
-
-li{
-    margin-left: 20px;
+    justify-content: center;
+    background-color: rgb(0, 255, 0);
 }
 
 a{
+    text-decoration: none; 
+    margin: 10px 10px auto;
     color: black;
-}
-
-
-.menu{
-    font-family: Bungee ;
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    background-color: #00FF00;
-    border-radius: 8px;
-    padding: 8px;
-    border: 1px solid black;
-}
-
-.botão-home{
-    text-decoration: wavy;
-    display: flex;
-    justify-content: center;
-    background-color: #00FF00;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    
-
-}
-
-
-
-
-.main {
-    display: flex;
-    text-align: center;
-    padding: 20px;
-    height: calc(100vh - 60px);
-}
-
-.botoes{
-    display: flex;
-    text-align: center;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-
-
-.category-button {
+    font-size: 15px;
     font-family: Bungee;
-    font-size: 18px;
-    padding: 10px 20px;
-    margin: 10px;
-    background-color: #00FF00;
-    color: black;
+}
+
+.img-logoMenu{
+    width: 60px;
+    border-radius: 50px;
+    visibility: inherit;
+}
+
+.dp-loja{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px 105px auto;
+    margin-right: 3px;
+    margin-left: 6px;
+}
+
+.bt-loja{
+    padding: 10px;
+    border-radius: 8px;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    
+    background-color: rgb(0, 255, 0);
+    font-family: Bungee;
 }
 
-.category-button:hover {
-    background-color: black;
+.bt-loja:hover{
+    background-color: rgba(0, 233, 0, 0.753);
 }
 
-@media screen and (min-width: 600px){
-    .header{
-        width: 50vw;
-    }
-    .media{
-        width: 50vw;
-    }
-    .logo {
-        visibility: inherit;
-        font-size: 24px;
-        font-weight: bold;
-    }
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: Bungee;
+    font-family: 10px;
+    color: white;
 }
 
-@media screen and (min-width: 800px){
-    .header{
-        width: 1.5rem;
-    }
-    .media{
-        width: 1.5rem;
-    }
+h3{
+    display: flex;
+    justify-content: center;
+    font-family: Bungee;
+    font-family: 10px; 
+    color: white;
 }
 
+
+@media screen and (max-width: 300px){
+    .site-atletica{
+        width: 100%;
+        flex-direction: column;
+    }
+    .menu{
+        padding: 10px;
+    }
+
+    .img-logoMenu{
+        visibility: hidden;
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+        font-family: Bungee;
+        font-family: 10px;
+    }
+
+    h3{
+        display: flex;
+        justify-content: center;
+        font-family: Bungee;
+        font-family: 10px; 
+    }
+
+    a{
+        display: flex;
+        justify-content: center;
+        margin: 0px 10px;
+        margin-right: 10px;   
+        list-style-type: none;
+        text-decoration: none;
+        color: black;
+        font-size: 120%;
+        font-family: Bungee;
+    }
+}
