@@ -1,55 +1,79 @@
-body {
+/* Reset de estilos para evitar estilos padrão do navegador */
+* {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
     background-color: black;
 }
 
-header {
-    background-color: #00FF00; /* Verde neon */
+/* Estilos do cabeçalho */
+.header {
+    background-color: #00FF00;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
 }
 
-.logo img {
-    width: 100px; /* Defina o tamanho desejado para o seu logo */
+.logo {
+    flex: 1;
+    padding-left: 20px;
+    max-width: 100px;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.buttons {
     display: flex;
 }
 
-nav li {
-    margin-right: 20px;
+button {
+    margin-right: 10px;
 }
 
-nav a { 
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 16px;
+.botoes{
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: black;
+    color: #00FF00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-main {
+
+/* LOGO E TITULO */
+.content {
+    color: #00FF00;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
+    
 }
-
+/* ESTILO DO TEXTO */
 h1 {
-    color: #00FF00; /* Verde neon */
-    font-size: 36px;
+    
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
-@keyframes customAnimation {
-    0% { background-position: 0 0; }
-    100% { background-position: 100% 0; }
+/* ESTILO DO LOGO */
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-.img-logo{
-    width: 600px;
+
+/* Media query para tornar o layout responsivo */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    .buttons {
+        margin-top: 10px;
+    }
 }
