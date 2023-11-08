@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/docs/Imagens/matrix33.gif);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    max-width: 800px;
+    background: #00FF0A;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+.contact-info {
+    flex: 1;
+    background-image: url(/docs/Imagens/homem-sentado.jpg);
+    color: white;
+    text-align: center;
+    padding-top: 13rem;
+}
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Dela Gothic One', cursive;
+}
+.contact-info p {
+    font-size: 18px;
+}
+
+.contact-info img {
+    width: 40px;
+}
+
+.form-container {
+    flex: 1;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 25px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"] {
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+textarea {
+    height: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: black;
+}

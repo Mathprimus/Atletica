@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../docs/CSS/Cotatos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Urbanist:wght@100&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="contact-info">
+            <h2>INFORMAÇÕES DE CONTATO </h2>
+            <br>
+            <p><b>Telefone:</b>(123) 456-7890</p>
+            <p><b>Endereço:</b> Rua Exemplo, 1234</p>
+            <p><a href="https://wa.me/1234567890"><img src="../docs/Imagens/wpp.png"></a> <a href="https://www.instagram.com/"><img src="../docs/Imagens/insta.png"></a></p>
+        </div>
+        <div class="form-container">
+            <h1>ENTRE EM CONTATO CONOSCO</h1>
+            <p><b>Preencha o formulário abaixo para entrar em contato conosco:</b></p>
+            
+            <form action="processar_formulario.php" method="POST">
+                <label for="nome"><b>Nome:</b></label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email"><b>E-mail:</b></label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="assunto"><b>Assunto:</b></label>
+                <input type="text" id="assunto" name "assunto" required>
+                
+                <label for="mensagem"><b>Mensagem:</b></label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
