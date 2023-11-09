@@ -8,6 +8,46 @@ body {
     align-items: center;
     height: 100vh;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+}
+
+header {
+    padding-inline: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 890px;
+    background-color: black;
+    box-shadow: 1px -7px 25px 8px #19FF00;
+}
+
+
+.navbar img {
+    width: 80px;
+}
+
 .container {
     max-width: 800px;
     background: #00FF0A;
