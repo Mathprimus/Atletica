@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url(/docs/Imagens/matrix33.gif);
+    background-image: url(../Imagens/matrix33.gif);
     margin: 0;
     padding: 0;
     display: flex;
@@ -56,7 +56,7 @@ header {
 }
 .contact-info {
     flex: 1;
-    background-image: url(/docs/Imagens/homem-sentado.jpg);
+    background-image: url(../Imagens/homem-sentado.jpg);
     color: white;
     text-align: center;
     padding-top: 13rem;

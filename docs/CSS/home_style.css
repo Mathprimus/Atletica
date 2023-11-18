@@ -16,7 +16,7 @@ body {
 }
 
 .cover {
-    background-image: url('/docs/Imagens/torcendo.png');
+    background-image: url('../Imagens/torcendo.png');
     background-size: cover;
     background-position: center;
     background-attachment: local;
