@@ -1,91 +1,82 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../CSS/eventos style.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/eventos style.css">
+        <title>Eventos</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Urbanist:wght@100&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Open+Sans:wght@300&family=Urbanist:wght@100&display=swap"
-        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Urbanist:wght@100&display=swap" rel="stylesheet">
 
-    <title>Document</title>
-</head>
+    </head>
 
-<body>
+    <body class="container">
 
-    <body>
-        <header class="navbar">
-            <img src="../Imagens/Imagem_do_WhatsApp_de_2023-09-10_à_s__17.34.06-removebg-preview.png" alt="">
-            <ul>
-                <li><a href="./PagHome.html">Inicio</a></li>
-                <li><a href="./Cadastro.html">Cadastro</a></li>
-                <li><a href="./Informativos.html">Infomativos</a></li>
-                <li><a href="./Eventos.html">Eventos</a></li>
-                <li><a href="./Contatos.html">Contatos</a></li>
-                <li><a href="./loja.html">Loja</a></li>  
-            </ul>
+        <nav>
+            <div class="logo">
+                <img src="../Imagens/logoAtletica.png" alt="Logo da Atlética de TI" width="100">
+            </div>
+
+            <button class="menu-btn" onclick="toggleMenu()">Menu</button>
+
+            <!-- Adiciona a lista de navegação -->
+            <div class="nav-list">
+                <a href="PagHome.html">Inicio</a>
+                    <a href="Cadastro.html">Cadastro</a>
+                    <a href="Informativos.html">Infomativos</a>
+                    <a href="Eventos.html">Eventos</a>
+                    <a href="Contatos.html">Contatos</a>
+                    <a href="loja.html">Loja</a>
+            </div>
+        </nav>
+
+        <header>
+            <h1>EVENTOS</h1>
         </header>
-
-        <section class="titulo">
-            <div class="eventos">
-                <h1>EVENTOS</h1>
+    
+        <main>
+        <div class="eventos">
+            <div class="card">
+                <img src="../Imagens/Choppada.webp" alt="Evento 1">
+                <div class="card-content">
+                    <h2>Choppada dos alunos</h2>
+                    <p>Data: 01/01/2023</p>
+                    <p>Local: Local 1</p>
+                </div>
             </div>
-        </section>
 
-        <section class="outside">
-
-            <img src="../Imagens/party.png" alt="">
-
-            <div class="cards">
-                <div class="card">
-                    <img src="../Imagens/Chopp.jpg"  alt="">
-                    <div>
-                        <h1>Shopada dos estudantes</h1>
-                        <h2>SEX,  13 OUT - 19:00</h2>
-                        <h3>Bar ao lado da faculdade (que eu não sei o nome) <br>
-                            Vilas Industrial - Campinas, SP</h3>
-                    </div>
+            <div class="card">
+                <img src="../Imagens/mega.jpg" alt="Evento 2">
+                <div class="card-content">
+                    <h2>Mega Arena</h2>
+                    <p>Data: 02/01/2023</p>
+                    <p>Local: Local 2</p>
                 </div>
-
-                <div class="card">
-                    <img src="../Imagens/mega.jpg" alt="">
-                    <div>
-                        <h1>MEGA ARENA - PIQUE JOGOS</h1>
-                        <h2>SEX,  13 OUT - 19:00</h2>
-                        <h3>sep, 14, 2023 09:08pm BRT</h3>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="#" alt="">
-                    <div>
-                        <h1>Algum outro evento</h1>
-                        <h2>SEX,  13 OUT - 19:00</h2>
-                        <h3>Em algum lugar de eventos <br>
-                            Na casa do caralho - Campinas, SP,</h3>
-                    </div>
-                </div>
-
             </div>
-        </section>
 
-        <div class="linha"></div>
+            <!-- Adicione mais cards conforme necessário -->
+
+        </div>
+        </main>
 
         <footer>
-            <div class="rodape">
-                <p>&copy; 2023 Atlética. Todos os direitos reservados.</p>
-                <p>Endereço: R. Dr. Sales de Oliveira, 1661 - Campias, São Paulo/p>
-                <p>Telefone: 0800 771 5001</p>
-                <p>Email: atletica@unimetrocamp.com</p>
-            </div>
+            <p>&copy; 2023 Atlética de TI. Todos os direitos reservados.</p>
         </footer>
+
+        <script>
+            function toggleMenu() {
+                var navList = document.querySelector('.nav-list');
+                navList.classList.toggle('show');
+            }
+        </script>
+
+    </body>
+
+    </html>
