@@ -14,7 +14,7 @@
     </nav>
     <div class="box">
         
-        <form action="">
+        <form name="Cadastro">
             <fieldset>
                 <legend><b>Formulário de Cadastro</b></legend>
                 <br>
@@ -58,10 +58,32 @@
                 <label for="data_nascimento"><b>Data de Nascimento</b></label>
                 <input type="date" name="data_nascimento" id="data_nascimento" required>
                 <br><br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="CEP" id="CEP" class="inputUser" onchange="buscarCep(this.value)" required>
+                    <label for="CEP" class="labelInput"><b>CEP</b></label>
+                </div>
+                <br><br>
+                
                 <div class="inputBox">
                     <input type="text" name="cidade" id="cidade" class="inputUser" required>
                     <label for="cidade" class="labelInput"><b>Cidade</b></label>
                 </div>
+
+                <br><br>
+                
+                <div class="inputBox">
+                    <input type="text" name="bairro" id="bairro" class="inputUser" required>
+                    <label for="bairro" class="labelInput"><b>Bairro</b></label>
+                </div>
+
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                    <label for="endereco" class="labelInput"><b>Endereço</b></label>
+                </div>
+               
                 <br><br>
                 Estado:
                     <select name="estado">
@@ -99,6 +121,8 @@
 
             </fieldset>
         </form>
+        <script src="../buscaCEP.js"></script>
+
     </div>
 </body>
 </html>
